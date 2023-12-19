@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-58fw
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-vzzw-tenant/e2e-nodejs/devfile-sample-58fw@sha256:a80c987a6e28d2bd8f6da8204a27f09e61b073a287256c4c769c7f20162d2a1b
+        name: my-nodejs
+        resources: {}
+status: {}
